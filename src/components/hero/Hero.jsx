@@ -3,7 +3,7 @@ import MainVideo from "../../assets/video.mp4";
 import "./Hero.css";
 function hero() {
   return (
-    <div className="hero">
+    <div name="platform" className="hero">
       <video autoPlay loop muted id="video">
         <source src={MainVideo} type="video/mp4"></source>
       </video>
@@ -12,10 +12,7 @@ function hero() {
         <h1>
           <span className="blue">Trading</span>
           Protocol
-          <p>
-            Guaranteed liquidity trading for millions of users and top Ethereum
-            applications.
-          </p>
+          <p>Guaranteed liquidity trading for millions of users and top Ethereum applications.</p>
           <div className="btn-group">
             <button className="btn">Use Defi</button>
             {/* <button className="btn btn-outline">Documentation</button> */}
